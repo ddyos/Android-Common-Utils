@@ -46,11 +46,11 @@ public class ScreenUtils {
         return px / context.getResources().getDisplayMetrics().density;
     }
 
-    public static float dpToPxInt(Context context, float dp) {
+    public static int dpToPxInt(Context context, float dp) {
         return (int)(dpToPx(context, dp) + 0.5f);
     }
 
-    public static float pxToDpInt(Context context, float px) {
+    public static int pxToDpInt(Context context, float px) {
         return (int)(pxToDp(context, px) + 0.5f);
     }
 }
